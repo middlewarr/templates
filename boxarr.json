@@ -1,0 +1,33 @@
+{
+  "id": "boxarr",
+  "name": "Boxarr",
+  "url": "https://github.com/iongpt/boxarr",
+  "endpoints": {
+    "radarr": {
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/movie": [
+        "get",
+        "post"
+      ],
+      "/api/v3/movie/lookup": [
+        "get"
+      ],
+      "/api/v3/movie/{id}": [
+        "get",
+        "put",
+        "delete"
+      ],
+      "/api/v3/qualityProfile": [
+        "get"
+      ],
+      "/api/v3/rootFolder": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    }
+  }
+}
