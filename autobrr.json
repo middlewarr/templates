@@ -1,0 +1,35 @@
+{
+  "id": "autobrr",
+  "name": "autobrr",
+  "url": "https://github.com/autobrr/autobrr",
+  "endpoints": {
+    "radarr": {
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/release/push": [
+        "post"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/release/push": [
+        "post"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
+        "get"
+      ],
+      "/api/v3/series": [
+        "get"
+      ]
+    }
+  }
+}
