@@ -52,6 +52,9 @@
       ],
       "/api/v3/system/status": [
         "get"
+      ],
+      "/api/v3/tag": [
+        "get"
       ]
     },
     "sonarr": {
