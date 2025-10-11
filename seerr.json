@@ -1,0 +1,74 @@
+{
+  "id": "seerr",
+  "name": "Seerr",
+  "url": "https://github.com/seerr-team/seerr",
+  "endpoints": {
+    "radarr": {
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/movie": [
+        "get",
+        "post"
+      ],
+      "/api/v3/movie/{id}": [
+        "delete",
+        "get"
+      ],
+      "/api/v3/movie/lookup": [
+        "get"
+      ],
+      "/api/v3/qualityprofile": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/rootfolder": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
+        "get",
+        "post"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/languageprofile": [
+        "get"
+      ],
+      "/api/v3/qualityprofile": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/rootfolder": [
+        "get"
+      ],
+      "/api/v3/series": [
+        "get",
+        "post"
+      ],
+      "/api/v3/series/{id}": [
+        "delete",
+        "get",
+        "put"
+      ],
+      "/api/v3/series/lookup": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
+        "get"
+      ]
+    }
+  }
+}
