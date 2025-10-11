@@ -19,10 +19,10 @@
         "put",
         "delete"
       ],
-      "/api/v3/qualityProfile": [
+      "/api/v3/qualityprofile": [
         "get"
       ],
-      "/api/v3/rootFolder": [
+      "/api/v3/rootfolder": [
         "get"
       ],
       "/api/v3/system/status": [
