@@ -20,6 +20,9 @@
         "get",
         "put"
       ],
+      "/api/v3/config/naming/{id}": [
+        "put"
+      ],
       "/api/v3/config/mediamanagement": [
         "get"
       ],
@@ -48,6 +51,9 @@
       ],
       "/api/v3/config/naming": [
         "get",
+        "put"
+      ],
+      "/api/v3/config/naming/{id}": [
         "put"
       ],
       "/api/v3/config/mediamanagement": [
