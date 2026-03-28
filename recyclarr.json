@@ -63,7 +63,8 @@
         "put"
       ],
       "/api/v3/config/naming": [
-        "get"
+        "get",
+        "put"
       ],
       "/api/v3/config/naming/{id}": [
         "get",
