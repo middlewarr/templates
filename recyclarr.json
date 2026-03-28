@@ -48,7 +48,8 @@
         "get"
       ],
       "/api/v3/customformat": [
-        "get"
+        "get",
+        "post"
       ],
       "/api/v3/customformat/{id}": [
         "put"
