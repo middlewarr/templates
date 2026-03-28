@@ -18,7 +18,8 @@
         "get"
       ],
       "/api/v3/qualityprofile": [
-        "get"
+        "get",
+        "post"
       ],
       "/api/v3/config/naming": [
         "get",
