@@ -8,7 +8,11 @@
         "get"
       ],
       "/api/v3/customformat": [
-        "get"
+        "get",
+        "post"
+      ],
+      "/api/v3/customformat/{id}": [
+        "put"
       ],
       "/api/v3/qualitydefinition": [
         "get"
@@ -17,8 +21,7 @@
         "get"
       ],
       "/api/v3/config/naming": [
-        "get",
-        "put"
+        "get"
       ],
       "/api/v3/config/naming/{id}": [
         "put"
@@ -27,6 +30,9 @@
         "get"
       ],
       "/api/v3/config/mediamanagement/{id}": [
+        "put"
+      ],
+      "/api/v3/qualityprofile/{id}": [
         "put"
       ],
       "/api/v3/qualityprofile/schema": [
@@ -43,17 +49,24 @@
       "/api/v3/customformat": [
         "get"
       ],
+      "/api/v3/customformat/{id}": [
+        "put"
+      ],
       "/api/v3/qualitydefinition": [
         "get"
       ],
       "/api/v3/qualityprofile": [
-        "get"
-      ],
-      "/api/v3/config/naming": [
         "get",
+        "post"
+      ],
+      "/api/v3/qualityprofile/{id}": [
         "put"
       ],
+      "/api/v3/config/naming": [
+        "get"
+      ],
       "/api/v3/config/naming/{id}": [
+        "get",
         "put"
       ],
       "/api/v3/config/mediamanagement": [
