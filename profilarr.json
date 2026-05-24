@@ -4,12 +4,49 @@
   "url": "https://github.com/Dictionarry-Hub/profilarr",
   "endpoints": {
     "radarr": {
+      "/api/v3/command": [
+        "get",
+        "post"
+      ],
+      "/api/v3/command/{id}": [
+        "get"
+      ],
+      "/api/v3/config/mediamanagement": [
+        "get"
+      ],
+      "/api/v3/config/naming": [
+        "get"
+      ],
+      "/api/v3/config/naming/{id}": [
+        "put"
+      ],
       "/api/v3/customformat": [
         "get",
         "post"
       ],
       "/api/v3/customformat/{id}": [
         "put"
+      ],
+      "/api/v3/delayprofile": [
+        "get"
+      ],
+      "/api/v3/delayprofile/{id}": [
+        "get"
+      ],
+      "/api/v3/log": [
+        "get"
+      ],
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/movie/editor": [
+        "put"
+      ],
+      "/api/v3/moviefile": [
+        "get"
+      ],
+      "/api/v3/qualitydefinition": [
+        "get"
       ],
       "/api/v3/qualityprofile": [
         "get",
@@ -18,11 +55,36 @@
       "/api/v3/qualityprofile/{id}": [
         "put"
       ],
+      "/api/v3/release": [
+        "get"
+      ],
+      "/api/v3/rename": [
+        "get"
+      ],
       "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
         "get"
       ]
     },
     "sonarr": {
+      "/api/v3/command": [
+        "get",
+        "post"
+      ],
+      "/api/v3/command/{id}": [
+        "get"
+      ],
+      "/api/v3/config/mediamanagement": [
+        "get"
+      ],
+      "/api/v3/config/naming": [
+        "get"
+      ],
+      "/api/v3/config/naming/{id}": [
+        "put"
+      ],
       "/api/v3/customformat": [
         "get",
         "post"
@@ -30,11 +92,65 @@
       "/api/v3/customformat/{id}": [
         "put"
       ],
+      "/api/v3/delayprofile": [
+        "get"
+      ],
+      "/api/v3/delayprofile/{id}": [
+        "get"
+      ],
+      "/api/v3/episode": [
+        "get"
+      ],
+      "/api/v3/episodefile": [
+        "get"
+      ],
+      "/api/v3/episodefile/editor": [
+        "put"
+      ],
+      "/api/v3/log": [
+        "get"
+      ],
+      "/api/v3/qualitydefinition": [
+        "get"
+      ],
+      "/api/v3/qualitydefinition/{id}": [
+        "get",
+        "put"
+      ],
+      "/api/v3/qualitydefinition/limits": [
+        "get"
+      ],
+      "/api/v3/qualitydefinition/update": [
+        "put"
+      ],
       "/api/v3/qualityprofile": [
         "get",
         "post"
       ],
+      "/api/v3/qualityprofile/{id}": [
+        "get",
+        "put",
+        "delete"
+      ],
+      "/api/v3/release": [
+        "get"
+      ],
+      "/api/v3/rename": [
+        "get"
+      ],
+      "/api/v3/series": [
+        "get"
+      ],
+      "/api/v3/series/{id}": [
+        "get"
+      ],
+      "/api/v3/series/editor": [
+        "put"
+      ],
       "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
         "get"
       ]
     }
