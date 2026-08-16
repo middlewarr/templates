@@ -1,0 +1,106 @@
+{
+  "id": "helmarr",
+  "name": "Helmarr",
+  "url": "https://helmarr.app",
+  "endpoints": {
+    "prowlarr": {
+      "/api/v1/health": [
+        "get"
+      ],
+      "/api/v1/indexer": [
+        "get"
+      ],
+      "/api/v1/indexer/test": [
+        "post"
+      ],
+      "/api/v1/indexer/{id}": [
+        "put"
+      ],
+      "/api/v1/indexerstats": [
+        "get"
+      ],
+      "/api/v1/indexerstatus": [
+        "get"
+      ],
+      "/api/v1/system/status": [
+        "get"
+      ],
+      "/api/v1/tag": [
+        "get"
+      ]
+    },
+    "radarr": {
+      "/api/v3/calendar": [
+        "get"
+      ],
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/diskspace": [
+        "get"
+      ],
+      "/api/v3/filesystem": [
+        "get"
+      ],
+      "/api/v3/health": [
+        "get"
+      ],
+      "/api/v3/history": [
+        "get"
+      ],
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/movie/{id}": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/calendar": [
+        "get"
+      ],
+      "/api/v3/command": [
+        "post"
+      ],
+      "/api/v3/diskspace": [
+        "get"
+      ],
+      "/api/v3/episode": [
+        "get"
+      ],
+      "/api/v3/episodefile": [
+        "get"
+      ],
+      "/api/v3/filesystem": [
+        "get"
+      ],
+      "/api/v3/health": [
+        "get"
+      ],
+      "/api/v3/history": [
+        "get"
+      ],
+      "/api/v3/qualityprofile": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/release": [
+        "get"
+      ],
+      "/api/v3/series/{id}": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    }
+  }
+}
