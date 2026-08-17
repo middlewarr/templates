@@ -3,6 +3,7 @@
   "name": "Cleanuparr",
   "url": "https://github.com/Cleanuparr/Cleanuparr",
   "endpoints": {
+    "lidarr": {},
     "radarr": {
       "/api/v3/command": [
         "post"
@@ -21,6 +22,9 @@
       ]
     },
     "sonarr": {
+      "/api/v3/command/{id}": [
+        "get"
+      ],
       "/api/v3/command": [
         "post"
       ],
