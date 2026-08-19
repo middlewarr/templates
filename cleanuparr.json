@@ -3,44 +3,90 @@
   "name": "Cleanuparr",
   "url": "https://github.com/Cleanuparr/Cleanuparr",
   "endpoints": {
-    "lidarr": {},
+    "lidarr": {
+      "/api/v1/album": [
+        "get"
+      ],
+      "/api/v1/command": [
+        "post"
+      ],
+      "/api/v1/command/{id}": [
+        "get"
+      ],
+      "/api/v1/queue": [
+        "get"
+      ],
+      "/api/v1/queue/{id}": [
+        "delete"
+      ],
+      "/api/v1/system/status": [
+        "get"
+      ]
+    },
     "radarr": {
       "/api/v3/command": [
         "post"
       ],
-      "/api/v3/movie/{id}": [
-        "delete"
+      "/api/v3/command/{id}": [
+        "get"
       ],
-      "/api/v3/queue/{id}": [
-        "delete"
+      "/api/v3/movie": [
+        "get"
+      ],
+      "/api/v3/movie/{id}": [
+        "get"
+      ],
+      "/api/v3/moviefile": [
+        "get"
+      ],
+      "/api/v3/qualityprofile": [
+        "get"
       ],
       "/api/v3/queue": [
         "get"
       ],
+      "/api/v3/queue/{id}": [
+        "delete"
+      ],
       "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
         "get"
       ]
     },
     "sonarr": {
-      "/api/v3/command/{id}": [
-        "get"
-      ],
       "/api/v3/command": [
         "post"
       ],
+      "/api/v3/command/{id}": [
+        "get"
+      ],
       "/api/v3/episode": [
+        "get"
+      ],
+      "/api/v3/episodefile": [
+        "get"
+      ],
+      "/api/v3/qualityprofile": [
+        "get"
+      ],
+      "/api/v3/queue": [
         "get"
       ],
       "/api/v3/queue/{id}": [
         "delete"
       ],
-      "/api/v3/queue": [
+      "/api/v3/series": [
         "get"
       ],
       "/api/v3/series/{id}": [
         "get"
       ],
       "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/tag": [
         "get"
       ]
     }
