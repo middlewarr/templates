@@ -1,0 +1,34 @@
+{
+  "id": "qui",
+  "name": "qui",
+  "url": "https://github.com/autobrr/qui",
+  "endpoints": {
+    "prowlarr": {
+      "/api/v1/search": [
+        "get"
+      ],
+      "/api/v1/indexer": [
+        "get"
+      ],
+      "/api/v1/indexer/{id}/newznab": [
+        "get"
+      ]
+    },
+    "radarr": {
+      "/api/v3/parse": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/parse": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ]
+    }
+  }
+}
