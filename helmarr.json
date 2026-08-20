@@ -3,6 +3,11 @@
   "name": "Helmarr",
   "url": "https://helmarr.app",
   "endpoints": {
+    "lidarr": {
+      "/api/v1/system/status": [
+        "get"
+      ]
+    },
     "prowlarr": {
       "/api/v1/health": [
         "get"
