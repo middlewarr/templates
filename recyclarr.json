@@ -44,6 +44,9 @@
       ]
     },
     "sonarr": {
+      "/api/v3/config/mediamanagement": [
+        "get"
+      ],
       "/api/v3/customformat": [
         "get",
         "post"
