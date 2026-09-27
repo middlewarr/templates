@@ -3,6 +3,20 @@
   "name": "Homepage",
   "url": "https://github.com/gethomepage/homepage",
   "endpoints": {
+    "lidarr": {
+      "/api/v1/artist": [
+        "get"
+      ],
+      "/api/v1/calendar": [
+        "get"
+      ],
+      "/api/v1/queue/status": [
+        "get"
+      ],
+      "/api/v1/wanted/missing": [
+        "get"
+      ]
+    },
     "prowlarr": {
       "/api/v1/indexerstats": [
         "get"
