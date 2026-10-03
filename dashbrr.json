@@ -1,0 +1,48 @@
+{
+  "id": "dashbrr",
+  "name": "dashbrr",
+  "url": "https://github.com/autobrr/dashbrr",
+  "endpoints": {
+    "lidarr": {
+      "/api/v1/health": [
+        "get"
+      ],
+      "/api/v1/queue": [
+        "get"
+      ]
+    },
+    "prowlarr": {
+      "/api/v1/health": [
+        "get"
+      ],
+      "/api/v1/indexer": [
+        "get"
+      ],
+      "/api/v1/indexerstats": [
+        "get"
+      ]
+    },
+    "radarr": {
+      "/api/v3/health": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ],
+      "/api/v3/system/status": [
+        "get"
+      ],
+      "/api/v3/update": [
+        "get"
+      ]
+    },
+    "sonarr": {
+      "/api/v3/health": [
+        "get"
+      ],
+      "/api/v3/queue": [
+        "get"
+      ]
+    }
+  }
+}
